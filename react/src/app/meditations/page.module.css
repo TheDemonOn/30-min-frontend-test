@@ -1,0 +1,13 @@
+.page {
+}
+
+.select {
+  background: var(--background);
+  color: var(--text);
+}
+
+.meditations {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(384px, 1fr));
+  gap: 16px;
+}

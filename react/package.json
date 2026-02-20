@@ -1,0 +1,24 @@
+{
+  "name": "hg-test",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@fontsource/open-sans": "^5.2.7",
+    "next": "16.1.6",
+    "normalize.css": "^8.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "prettier": "3.8.1",
+    "typescript": "^5"
+  }
+}

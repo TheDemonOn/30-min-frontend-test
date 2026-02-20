@@ -1,0 +1,25 @@
+:root {
+  --background: #021324;
+  --text: white;
+  --anxiety: #9850ff;
+  --anxiety-rgb: 152, 80, 255;
+  --depression: #067ccc;
+  --depression-rgb: 6, 124, 204;
+  --meditation: #fcc822;
+  --meditation-rgb: 252, 200, 34;
+  --adhd: #ff6672;
+  --adhd-rgb: 255, 102, 114;
+  --trauma: #ff8533;
+  --trauma-rgb: 255, 133, 51;
+}
+
+body {
+  background: var(--background);
+  color: var(--text);
+  padding: 24px;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: var(--text);
+}
