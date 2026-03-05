@@ -1,16 +1,28 @@
 :root {
   --background: #021324;
+  --background-hover: #04213f;
   --text: white;
-  --anxiety: #9850ff;
+  --anxiety: #aa71ff;
+  --anxiety-bg: #2f1850;
   --anxiety-rgb: 152, 80, 255;
-  --depression: #067ccc;
+  --depression: #0798f8;
+  --depression-bg: #012136;
   --depression-rgb: 6, 124, 204;
-  --meditation: #fcc822;
+  --meditation: #f3b803;
+  --meditation-bg: #4d3c0a;
   --meditation-rgb: 252, 200, 34;
   --adhd: #ff6672;
+  --adhd-bg: #502024;
   --adhd-rgb: 255, 102, 114;
   --trauma: #ff8533;
+  --trauma-bg: #502a10;
   --trauma-rgb: 255, 133, 51;
+  --focus-visible: deepskyblue;
+}
+
+*:focus-visible {
+  outline: 3px solid var(--focus-visible);
+  outline-offset: 3px;
 }
 
 body {
@@ -22,4 +34,18 @@ body {
 
 a {
   color: var(--text);
+}
+
+select,
+button {
+  background: var(--background);
+  color: var(--text);
+  border-color: white;
+  border-radius: 5px;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+}
+select,
+button:hover {
+  background: var(--background-hover);
 }

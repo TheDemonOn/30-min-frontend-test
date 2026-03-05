@@ -1,4 +1,6 @@
-const meditations = [
+import type { Meditations } from "$lib/types"
+
+const meditations: Meditations[] = [
   {
     slug: "activating-ajna-chakra",
     title: "Activating Ajna Chakra (Charging the Laser Beam)",
