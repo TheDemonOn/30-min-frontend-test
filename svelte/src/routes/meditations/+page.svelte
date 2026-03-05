@@ -22,7 +22,7 @@
       if (selectedTag !== "All Tags") {
         return meditation.tags.includes(selectedTag)
       } else {
-        return unfilteredMeditations
+        return true
       }
     }),
   )
